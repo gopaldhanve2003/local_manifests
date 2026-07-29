@@ -3,7 +3,7 @@
     <remote name="gh" fetch="https://github.com/" />
     <project path="device/realme/nemo" name="gopaldhanve2003/android_device_realme_nemo" revision="16.0" remote="gh" />
   	<project path="vendor/realme/nemo" name="gopaldhanve2003/proprietary_vendor_realme_nemo" revision="16.0" remote="gh" />
-  	<project path="kernel/realme/nemo" name="EvilAnsh/android_kernel_realme_nemo" revision="bka" remote="gh" />
+  	<project path="kernel/realme/nemo" name="gopaldhanve2003/android_kernel_realme_nemo" revision="16.0" remote="gh" />
   	<project path="hardware/mediatek" name="crdroidandroid/android_hardware_mediatek" revision="16.0" remote="gh" />
   	<project path="device/mediatek/sepolicy_vndr" name="crdroidandroid/android_device_mediatek_sepolicy_vndr" revision="16.0" remote="gh" />
 </manifest>
