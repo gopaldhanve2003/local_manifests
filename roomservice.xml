@@ -1,10 +1,9 @@
 <manifest>
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
-    <remote name="gh" fetch="https://github.com/" />
-    <project path="device/realme/RM6785" name="gopaldhanve2003/android_device_realme_RM6785" revision="16.0" remote="gh" />
-  	<project path="vendor/realme/RM6785" name="realme-mt6785-devs/android_vendor_realme_RM6785" revision="lineage-23.2" remote="gh" />
-  	<project path="kernel/realme/mt6785" name="realme-mt6785-devs/android_kernel_realme_mt6785" revision="lineage-24.0" remote="gh" />
-  	<project path="hardware/mediatek" name="crdroidandroid/android_hardware_mediatek" revision="16.0" remote="gh" />
-  	<project path="device/mediatek/sepolicy_vndr" name="crdroidandroid/android_device_mediatek_sepolicy_vndr" revision="16.0" remote="gh" />
+    <project path="device/realme/RM6785" name="gopaldhanve2003/android_device_realme_RM6785" revision="lineage-23.2" remote="github" />
+  	<project path="vendor/realme/RM6785" name="realme-mt6785-devs/android_vendor_realme_RM6785" revision="lineage-23.2" remote="github" />
+    <project path="kernel/realme/mt6785" name="realme-mt6785-devs/android_kernel_realme_mt6785" revision="lineage-24.0" remote="github" />
+    <project path="device/mediatek/sepolicy_vndr" name="realme-mt6785-devs/android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="github" />
+    <project path="hardware/mediatek" name="realme-mt6785-devs/android_hardware_mediatek" revision="lineage-23.2" remote="github" />
 </manifest>
 
