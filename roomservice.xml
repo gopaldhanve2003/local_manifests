@@ -1,7 +1,7 @@
 <manifest>
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
-    <project path="device/realme/nemo" name="gopaldhanve2003/android_device_realme_nemo" revision="lineage-23.2" remote="github" />
-    <project path="vendor/realme/nemo" name="gopaldhanve2003/proprietary_vendor_realme_nemo" revision="lineage-23.2" remote="github" />
+    <project path="device/realme/nemo" name="gopaldhanve2003/android_device_realme_nemo" revision="ims" remote="github" />
+    <project path="vendor/realme/nemo" name="gopaldhanve2003/proprietary_vendor_realme_nemo" revision="ims" remote="github" />
     <project path="kernel/realme/nemo" name="gopaldhanve2003/android_kernel_realme_nemo" revision="16.0" remote="github" />
     <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="github" />
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-23.2" remote="github" />
