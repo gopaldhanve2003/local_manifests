@@ -5,5 +5,8 @@
     <project path="kernel/realme/nemo" name="gopaldhanve2003/android_kernel_realme_nemo" revision="lineage-24.0" remote="github" />
     <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-24.0" remote="github" />
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-24.0" remote="github" />
+    <!-- track own build/soong with memory constraints /-->
+    <remove-project name="LineageOS/android_build_soong" />
+    <project path="build/soong" name="gopaldhanve2003/android_build_soong" remote="github" revision="lineage-24.0" />
 </manifest>
 
