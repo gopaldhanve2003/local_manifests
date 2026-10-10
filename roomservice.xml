@@ -5,5 +5,8 @@
     <project path="kernel/realme/nemo" name="gopaldhanve2003/android_kernel_realme_nemo" revision="lineage-23.2" remote="github" />
     <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="github" />
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-23.2" remote="github" />
+    <!-- track crdroid libmeminfo instead of aosp one /-->
+    <remove-project name="platform/system/memory/libmeminfo" />
+    <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" remote="github" revision="16.0" />
 </manifest>
 
