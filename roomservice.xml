@@ -8,5 +8,8 @@
     <!-- track own build/soong with memory constraints /-->
     <remove-project name="LineageOS/android_build_soong" />
     <project path="build/soong" name="gopaldhanve2003/android_build_soong" remote="github" revision="lineage-24.0" />
+    <!-- track crdroid connectivity module for now /-->
+    <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+    <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" remote="github" revision="17.0" />
 </manifest>
 
